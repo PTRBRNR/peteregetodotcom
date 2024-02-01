@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.navbar {
+  height: 5rem;
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+  background: linear-gradient(270deg, #bfbfbf, #ff4848);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.links {
+  padding: 1rem;
+}
+
+h1 {
+  color: white;
+  padding-left: 3rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: red;
+}
+
+a {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+a:hover {
+  color: red;
+}
+
+.icon {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: red;
+}
